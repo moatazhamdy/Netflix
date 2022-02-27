@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Task</title>
+    <link rel="stylesheet" href="styles.css" />
+	<link rel="icon" href="logo.jpg">
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <img src="logo.jpg" alt="Netflix" />
+      <img src="profile.jpg" class="avatar" alt="Avatar" />
+    </nav>
+    <div class="cover">
+      <div class="content">
+        <h1>Ragnarok</h1>
+        <div class="buttons">
+          <button class="btn-1">Play</button>
+          <button class="btn-2">My List</button>
+        </div>
+
+        <p>
+          A small Norwegian town experiencing warm winters and violent downpours
+          seems to be headed for another Ragnarök -- unless someone intervenes
+          in time.
+        </p>
+      </div>
+    </div>
+
+    <div class="categories">
+      <h2>NETFLIX ORIGINAL</h2>
+      <div class="cta-1">
+        <img src="film1.jpg" alt="" />
+        <img src="film2.jpg" alt="" />
+        <img src="film3.jpg" alt="" />
+        <img src="film4.jpg" alt="" />
+        <img src="film5.jpg" alt="" />
+        <img src="film6.jpg" alt="" />
+        <img src="film7.jpg" alt="" />
+        <img src="film8.jpg" alt="" />
+        <img src="film9.jpg" alt="" />
+        <img src="film10.jpg" alt="" />
+        <img src="film2.jpg" alt="" />
+        <img src="film3.jpg" alt="" />
+        <img src="film4.jpg" alt="" />
+        <img src="film5.jpg" alt="" />
+      </div>
+
+      <h2>Top Rated</h2>
+      <div class="cta-2">
+        <img src="film15.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+      </div>
+
+      <h2>Action Movies</h2>
+      <div class="cta-2">
+        <img src="film20.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film15.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+      </div>
+
+      <h2>Comedy Movies</h2>
+      <div class="cta-2">
+        <img src="film15.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+      </div>
+
+      <h2>Horror Movies</h2>
+      <div class="cta-2">
+        <img src="film11.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+        <img src="film15.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film20.jpg" alt="" />
+      </div>
+
+      <h2>Romance Movies</h2>
+      <div class="cta-2">
+        <img src="film20.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film15.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+      </div>
+
+      <h2>Documentaries</h2>
+      <div class="cta-2">
+        <img src="film15.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film19.jpg" alt="" />
+        <img src="film18.jpg" alt="" />
+        <img src="film17.jpg" alt="" />
+        <img src="film16.jpg" alt="" />
+        <img src="film11.jpg" alt="" />
+        <img src="film12.jpg" alt="" />
+        <img src="film13.jpg" alt="" />
+        <img src="film14.jpg" alt="" />
+      </div>
+    </div>
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (document.documentElement.scrollTop > 100) {
+          document.getElementById("navbar").style.backgroundColor= "#161616";
+        } else {
+          document.getElementById("navbar").style.backgroundColor = "#FFFFFF00";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+  </body>
+</html>
